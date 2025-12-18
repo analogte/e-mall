@@ -51,7 +51,15 @@
 | Service | Port | Status |
 |---------|------|--------|
 | Backend (`mall-seller`) | 8086 | ✅ Running |
-| Frontend (`mall-seller-web`) | 8084 | ✅ Running |
+- **Frontend (`mall-seller-web`):**
+    - [x] Create Login/Register pages
+    - [x] Create Home Dashboard page
+    - [x] Implement Global Currency Filter (THB)
+    - [x] **New:** Implement Professional Admin Layout (Sidebar, Navbar)
+    - [x] **New:** Create Menu Structure (Product, Order, Marketing, Finance)
+    - [x] **New:** Localize UI to Thai Language
+    - [x] **New:** Implement Login/Logout state management
+สำเร็จ
 
 ### 📸 Screenshots
 - หน้า Seller Center Dashboard แสดง Total Sales (฿ 0.00) และ Total Orders (0) สำเร็จ
