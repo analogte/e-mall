@@ -10,7 +10,7 @@
 - [x] รันสคริปต์ปรับปรุงฐานข้อมูล (`migration_v1.sql`)
 - [x] สร้างโค้ด MyBatis อัตโนมัติสำหรับตาราง `ums_shop`
 - [x] สร้างระบบ Login/Register สำหรับผู้ขาย (Backend + Frontend)
-- [ ] พัฒนาหน้าจัดการสินค้า (Product Management)
+    - [x] พัฒนาหน้าจัดการสินค้า (Product Management: Add Product) <!-- id: 11 -->
 - [ ] พัฒนาหน้าจัดการคำสั่งซื้อ (Order Management)
 - [ ] ทดสอบ API ครบถ้วน
 
