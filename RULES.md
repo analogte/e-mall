@@ -69,6 +69,9 @@ Code must strictly follow this flow:
 1. **Passwords**: Never store plain text. Use `BCryptPasswordEncoder`.
 2. **API Keys**: Never commit `application.yml` with real production keys (use env vars).
 3. **Validation**: All Inputs (`@RequestBody`) must use JSR-303 annotations (`@NotEmpty`, `@NotNull`).
+4. **Currency**: All monetary values must be displayed in **THB (Baht)** with the symbol `฿`.
+   - Backend: Store as `BigDecimal`.
+   - Frontend: Use a global filter `currency(value)` to format.
 
 ---
 
